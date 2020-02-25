@@ -17,4 +17,7 @@ def kind
       :scalene
     end
   end
+  
+  class TriangleError < Standard Error
+end
 end
