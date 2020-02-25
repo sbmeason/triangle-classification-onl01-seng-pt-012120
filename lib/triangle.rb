@@ -18,6 +18,6 @@ def kind
     end
   end
   
-  class TriangleError < Standard Error
+  class TriangleError < StandardError
 end
 end
