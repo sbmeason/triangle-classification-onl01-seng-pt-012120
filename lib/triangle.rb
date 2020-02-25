@@ -9,6 +9,8 @@ end
 def kind
     if (@side_1 == @side_2) && (@side_2 == @side_3)
       :equilateral
+    else
+      (@side_1 == @side_2) || (@side_1 == @side_3)
       
 end
 end
